@@ -1,0 +1,8 @@
+:root {
+  --primary-color: #a75945;
+  --secondary-color: #ca8e6c;
+  --accent-color: #f2f0e9;
+  --box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  --special-font: "Unica One", sans-serif;
+  --primary-font: "Roboto", sans-serif;
+}
