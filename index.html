@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="src/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap"
       rel="stylesheet"
@@ -17,7 +19,7 @@
       <h1>AI Movie Quote Generator</h1>
     </header>
     <div class="form-container">
-      <form>
+      <form id="quote-generator-form">
         <input
           type="text"
           placeholder="Type a movie.."
@@ -31,7 +33,7 @@
     </div>
     <br />
     <div class="quote-container">
-      <div id="quote">"Frankly, my dear, I don't give a damn."</div>
+      <div id="quote"></div>
       <div id="characterName">-Rhett Butler</div>
     </div>
     <footer>
