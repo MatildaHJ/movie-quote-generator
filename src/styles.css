@@ -8,12 +8,14 @@
 body {
   background: #f2f0e9;
   padding-top: 50px;
+  font-family: "Roboto", sans-serif;
 }
 h1 {
   color: var(--primary-color);
   line-height: 1.5;
-  font-weight: 800;
+  font-weight: 700;
   margin-bottom: 25px;
+  font-size: 36px;
 }
 h1,
 footer,
@@ -43,7 +45,7 @@ footer,
 .instruction {
   width: 75%;
   border: 1px solid rgba(39, 33, 66, 0.5);
-  padding: 10px;
+  padding: 10px 18px;
 }
 .submit-button {
   margin-left: 8px;
