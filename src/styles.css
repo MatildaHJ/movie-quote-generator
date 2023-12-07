@@ -1,8 +1,68 @@
 :root {
   --primary-color: #a75945;
-  --secondary-color: #ca8e6c;
-  --accent-color: #f2f0e9;
-  --box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  --secondary-color: #dc9c77;
+  --box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
   --special-font: "Unica One", sans-serif;
   --primary-font: "Roboto", sans-serif;
+}
+body {
+  background: #f2f0e9;
+  padding-top: 50px;
+}
+h1 {
+  color: var(--primary-color);
+  line-height: 1.5;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+h1,
+footer,
+.form-container {
+  text-align: center;
+}
+.form-container,
+.quote-container {
+  max-width: 600px;
+  background: white;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 6px;
+}
+.quote-container {
+  font-size: 16px;
+  line-height: 1.5;
+  border-left: 4px solid var(--secondary-color);
+}
+.submit-button,
+.instruction {
+  border-radius: 20px;
+  line-height: 20px;
+  font-size: 16px;
+  box-shadow: var(--box-shadow);
+}
+.instruction {
+  width: 75%;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  padding: 10px;
+}
+.submit-button {
+  margin-left: 8px;
+  border: none;
+  background: var(--secondary-color);
+  color: white;
+  padding: 10px 22px;
+}
+.submit-button:hover {
+  background: #d49874;
+  cursor: pointer;
+}
+a {
+  color: var(--secondary-color);
+}
+a:hover {
+  color: #d49874;
+}
+footer {
+  font-size: 11px;
+  margin-top: 20px;
 }
