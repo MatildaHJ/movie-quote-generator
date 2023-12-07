@@ -58,13 +58,36 @@ footer,
   background: #d49874;
   cursor: pointer;
 }
+.hint {
+  text-align: start;
+  margin: 5px 10px;
+  font-size: 12px;
+}
+.hidden {
+  display: none;
+}
 a {
   color: var(--secondary-color);
 }
 a:hover {
   color: #d49874;
 }
+
 footer {
   font-size: 11px;
   margin-top: 20px;
+}
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
